@@ -1,0 +1,204 @@
+<table width="100%">
+    <tbody>
+    <tr>
+        <td valign="top">
+            <ul>
+                <li>
+                    <a href="../profile/index.html">Account</a>
+                </li>
+                <li>
+                    <a href="#">Dashboard</a>
+                </li>
+                <li>
+                    <a href="../home.html">Courses</a>
+                </li>
+                <li>
+                    <a href="#">Calendar</a>
+                </li>
+                <li>
+                    <a href="#">Inbox</a>
+                </li>
+                <li>
+                    <a href="#">History</a>
+                </li>
+                <li>
+                    <a href="#">Studio</a>
+                </li>
+                <li>
+                    <a href="#">Commons</a>
+                </li>
+                <li>
+                    <a href="#">Help</a>
+                </li>
+            </ul>
+        </td>
+        <td valign="top">
+            <ul>
+                <li>
+                    <a href="../home.html">Home</a>
+                </li>
+                <li>
+                    <a href="#">Modules</a>
+                </li>
+                <li>
+                    <a href="#">Piazza</a>
+                </li>
+                <li>
+                    <a href="#">Zoom Meetings</a>
+                </li>
+                <li>
+                    <a href="index.html">Assignments</a>
+                </li>
+                <li>
+                    <a href="#">Quizzes</a>
+                </li>
+                <li>
+                    <a href="../grades.html">Grades</a>
+                </li>
+                <li>
+                    <a href="#">People</a>
+                </li>
+                <li>
+                    <a href="#">Panopto Video</a>
+                </li>
+                <li>
+                    <a href="#">Discussions</a>
+                </li>
+                <li>
+                    <a href="#">Announcements</a>
+                </li>
+                <li>
+                    <a href="#">Pages</a>
+                </li>
+                <li>
+                    <a href="#">Files</a>
+                </li>
+                <li>
+                    <a href="#">Rubrics</a>
+                </li>
+                <li>
+                    <a href="#">Outcomes</a>
+                </li>
+                <li>
+                    <a href="#">Collaborations</a>
+                </li>
+                <li>
+                    <a href="#">Syllabus</a>
+                </li>
+                <li>
+                    <a href="#">Settings</a>
+                </li>
+            </ul>
+        </td>
+        <td valign="top">
+            <label for="speed-grader"></label>
+            <select id="speed-grader">
+                <option>SpeedGrader</option>
+            </select>
+            <hr>
+            <h3>Assignment Name</h3>
+            <form id="assignment-details" action="index.html">
+                <label for="assignment-name"></label>
+                <input id="assignment-name" value="A1 - ENV + HTML" /><br />
+                <label for="assignment-description-textarea"></label><br />
+                <textarea cols="20" rows="2" id="assignment-description-textarea">This is the assignment description.
+                </textarea><br /><br />
+                <label for="points">Points</label><br />
+                <input
+                        type="text"
+                        id="points"
+                        value="100"
+                /><br /><br />
+                <label for="assignment-group">Assignment Group</label><br />
+                <select id="assignment-group">
+                    <option>ASSIGNMENTS</option>
+                </select><br /><br />
+                <label for="display-grade">Display Grade as</label><br />
+                <select id="display-grade">
+                    <option>Percentage</option>
+                </select><br /><br />
+                <label for="submission-type">Submission Type</label><br />
+                <select id="submission-type">
+                    <option>Online</option>
+                </select><br /><br />
+                <label>Online Entry Options</label>
+                <br />
+                <input
+                        type="checkbox"
+                        value="Text Entry"
+                        name="check-online-entry-options"
+                        id="chkbox-text-entry"
+                />
+                <label for="chkbox-text-entry">Text Entry</label> <br />
+                <input
+                        type="checkbox"
+                        value="Website URL"
+                        name="check-online-entry-options"
+                        id="chkbox-website-url"
+                />
+                <label for="chkbox-website-url">Website URL</label> <br />
+                <input
+                        type="checkbox"
+                        value="Media Recordings"
+                        name="check-online-entry-options"
+                        id="chkbox-media-recordings"
+                />
+                <label for="chkbox-media-recordings">Media Recordings</label> <br />
+                <input
+                        type="checkbox"
+                        value="Student Annotation"
+                        name="check-online-entry-options"
+                        id="chkbox-student-annotation"
+                />
+                <label for="chkbox-student-annotation">Student Annotation</label> <br />
+                <input
+                        type="checkbox"
+                        value="File Uploads"
+                        name="check-online-entry-options"
+                        id="chkbox-file-uploads"
+                />
+                <label for="chkbox-file-uploads">File Uploads</label> <br /><br />
+                <label for="submission-attempts">Submission Attempts</label><br />
+                <select id="submission-attempts">
+                    <option>Unlimited</option>
+                </select><br /><br />
+                <label for="plagiarism-review">Plagiarism Review</label><br />
+                <select id="plagiarism-review">
+                    <option>None</option>
+                </select><br /><br />
+                <label>Group Assignments</label>
+                <br />
+                <input
+                        type="checkbox"
+                        value="This is a group assignment"
+                        name="check-group-assignments"
+                        id="chkbox-group-assignment"
+                />
+                <label for="chkbox-group-assignment">This is a group assignment</label> <br /><br />
+                <label>Peer Reviews</label>
+                <br />
+                <input
+                        type="checkbox"
+                        value="Require Peer Reviews"
+                        name="check-peer-reviews"
+                        id="chkbox-require-peer-reviews"
+                />
+                <label for="chkbox-require-peer-reviews">Require Peer Reviews</label> <br /><br />
+                Assign <br />
+                <label for="assign-to">Assign to</label><br />
+                <input id="assign-to" value="Everyone" /><br /><br />
+                <label for="due-by">Due</label><br />
+                <input type="date" id="due-by" value="2021-01-01" /><br /><br />
+                <label for="available-from">Available from</label><br />
+                <input type="date" id="available-from" value="2021-01-01" /><br /><br />
+                <label for="until">Until</label><br />
+                <input type="date" id="until" value="2021-01-01" /><br /><br />
+                <label for="cancel-button"></label>
+                <button id="cancel-button">Cancel</button>
+                <label for="save-button"></label>
+                <button id="save-button">Save</button>
+            </form>
+        </td>
+    </tr>
+    </tbody>
+</table>
