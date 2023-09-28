@@ -1,127 +1,208 @@
-<table width="100%">
-    <tbody>
-    <tr>
-        <td valign="top">
-            <ul>
-                <li>
-                    <a href="index.html">Account</a>
-                </li>
-                <li>
-                    <a href="#">Dashboard</a>
-                </li>
-                <li>
-                    <a href="../home.html">Courses</a>
-                </li>
-                <li>
-                    <a href="#">Calendar</a>
-                </li>
-                <li>
-                    <a href="#">Inbox</a>
-                </li>
-                <li>
-                    <a href="#">History</a>
-                </li>
-                <li>
-                    <a href="#">Studio</a>
-                </li>
-                <li>
-                    <a href="#">Commons</a>
-                </li>
-                <li>
-                    <a href="#">Help</a>
-                </li>
-            </ul>
-        </td>
-        <td valign="top">
-            <ul>
-                <li>
-                    <a href="#">Notifications</a>
-                </li>
-                <li>
-                    <a href="index.html">Profile</a>
-                </li>
-                <li>
-                    <a href="#">Files</a>
-                </li>
-                <li>
-                    <a href="#">Settings</a>
-                </li>
-                <li>
-                    <a href="#">ePortfolios</a>
-                </li>
-                <li>
-                    <a href="#">Shared Content</a>
-                </li>
-                <li>
-                    <a href="#">The Hub</a>
-                </li>
-                <li>
-                    <a href="#">Qwickly Course Tools</a>
-                </li>
-                <li>
-                    <a href="#">Global Announcements</a>
-                </li>
-            </ul>
-        </td>
-        <td valign="top">
-            <h2>Aarohi Nadkarni</h2>
-                <label for="name">Name:*</label>
-                <input id="name" value="Aarohi Nadkarni" />
-                <label for="pronouns">Pronouns:</label>
-                <select id="pronouns">
-                    <option>None</option>
-                </select><br /><br />
-                <label for="title">Title:</label>
-                <input id="title" /><br /><br />
-                <h3>Contact</h3>
-                No registered services, you can add some on the <a href="#">settings</a> page.<br />
-                <h3>Biography</h3>
-                Computer Science & Behavioral Neuroscience student.
-                <label for="biography-textarea"></label><br />
-                <textarea cols="60" rows="3" id="biography-textarea">Computer Science & Behavioral Neuroscience student.
-                </textarea><br /><br />
-                <h3>Links</h3>
-                <ul>
-                    <li><a href="#">YouTube</a></li>
-                </ul>
-                <table width="38%">
-                    <thead>
-                    <th>
-                        Title
-                    </th>
-                    <th>
-                        URL
-                    </th>
-                    </thead>
-                </table>
+<html>
+<head>
+    <link href="../../styles.css"
+          rel="stylesheet"/>
+    <link href="../kanbasnavigation/index.css"
+          rel="stylesheet"/>
+    <link href="../coursenavigation/index.css"
+          rel="stylesheet"/>
+    <link href="../../vendors/fontawesome/css/all.css"
+          rel="stylesheet"/>
+    <link href="../../vendors/bootstrap/css/bootstrap.css"
+          rel="stylesheet"/>
+    <link href="index.css"
+          rel="stylesheet"/>
+<head>
+<body>
+<div class="wd-account-flex-row-container">
+    <div class="wd-account-flex-column-container">
+        <!--<div class="wd-flex-row-container">-->
+        <ul class="wd-kanbas-navigation">
+            <li>
+                <img src="../northeastern_icon2.png">
+            </li>
+            <li class="wd-active">
+                <a href="index.html">
+                <i class="fa fa-user-circle account" aria-hidden="true"></i>
+                </br>
+                Account</a>
+            </li>
+            <li>
+                <a href="../dashboard/index.html">
+                    <i class="fa fa-tachometer-alt" aria-hidden="true"></i>
+                    </br>
+                    Dashboard</a>
+            </li>
+            <li>
+                <a href="../home.html">
+                    <i class="fa fa-book" aria-hidden="true"></i>
+                    </br>
+                    Courses</a>
+            </li>
+            <li>
+                <a href="#">
+                    <i class="fa fa-calendar" aria-hidden="true"></i>
+                    </br>
+                    Calendar</a>
+            </li>
+            <li>
+                <a href="#">
+                    <i class="fa fa-inbox" aria-hidden="true"></i>
+                    </br>
+                    Inbox</a>
+            </li>
+            <li>
+                <a href="#">
+                    <i class="fas fa-clock" aria-hidden="true"></i>
+                    </br>
+                    History</a>
+            </li>
+            <li>
+                <a href="#">
+                    <i class="fa fa-photo-video" aria-hidden="true"></i>
+                    </br>
+                    Studio</a>
+            </li>
+            <li>
+                <a href="#">
+                    <i class="fa fa-sign-out-alt" ara-hidden="true"></i>
+                    </br>
+                    Commons</a>
+            </li>
+            <li>
+                <a href="#">
+                    <i class="fa fa-question-circle" aria-hidden="true"></i>
+                    </br>
+                    Help</a>
+            </li>
+        </ul>
+    </div>
+    <div class="wd-account-flex-column-container">
+        <ul class="wd-account-navigation">
+            <li>
+                <a href="#">Notifications</a>
+            </li>
+            <li class="wd-active">
+                <a href="index.html">Profile</a>
+            </li>
+            <li>
+                <a href="#">Files</a>
+            </li>
+            <li>
+                <a href="#">Settings</a>
+            </li>
+            <li>
+                <a href="#">ePortfolios</a>
+            </li>
+            <li>
+                <a href="#">Shared Content</a>
+            </li>
+            <li>
+                <a href="#">The Hub</a>
+            </li>
+            <li>
+                <a href="#">Qwickly Course Tools</a>
+            </li>
+            <li>
+                <a href="#">Global Announcements</a>
+            </li>
+        </ul>
+    </div>
+    <div class="wd-account-flex-column-container wd-account-edit-info wd-account-info wd-account-info">
+        <i class="fas fa-bars" aria-hidden="true"></i>
+        &nbsp;
+        <font size="4">Aarohi Nadkarni's Profile</font><br/>
+        <hr>
+        <form id="cancel-editing" action="index.html" style="display: inline;">
+            <label from="cancel-editing-button"></label>
+            <button id="cancel-profile-button" type="submit" class="btn btn-secondary btn-sm edit-profile float-end"> <i class="fa fa-pencil-alt pencil"  aria-hidden="true"></i>
+                Cancel Editing</button>
+        </form>
+        <span class="fa-stack fa-4x">
+            <i class="fa fa-user fa-stack-1x user" aria-hidden="true"></i>
+            <i class="far fa-circle fa-stack-2x user"></i><br/><br/>
+        </span><br/><br/>
+        <div class="mb-3">
+            <label for="name" class="form-label">Name:*</label></br>
+            <input class="form-control" id="name" value="Aarohi Nadkarni" />
+        </div>
+        <label for="pronouns">Pronouns:</label>
+        <select id="pronouns">
+            <option>None</option>
+        </select><br /><br />
+        <div class="mb-3">
+            <label for="title" class="form-label">Title:</label></br>
+            <input class="form-control" id="title"/></br>
+        </div>
+        <!-- <label for="title">Title:</label></br>
+        <input id="title" /><br /><br /></br> -->
+        <h3>Contact</h3>
+        No registered services, you can add some on the <a href="#">settings</a> page.<br /></br>
+        <h3>Biography</h3>
+        <div class="mb-3">
+            <label for="biography-textarea" class="form-label"></label>
+            <textarea cols="60" rows="3" class="form-control" id="biography-textarea">Computer Science & Behavioral Neuroscience student.
+            </textarea>
+        </div><br/>
+        <!-- <label for="biography-textarea"></label><br />
+        <textarea cols="60" rows="3" id="biography-textarea">Computer Science & Behavioral Neuroscience student.
+        </textarea><br /><br /> -->
+        <h3>Links</h3>
+        <div class="row">
+            <div class="col" align="center">
+               <b>Title</b></div>
+            <div class="col" align="center">
+               <b>URL</b></div>
+         </div>
+         <div class="row">
+            <div class="col">
                 <label for="youtube-title-input"></label>
-                <input type="text"
-                       id="youtube-title-input"
-                       value="YouTube"
-                >
-                &#8594
+                <input type="text" class="form-control" id="youtube-title-input" value="YouTube">   
+            </div> &#8594
+            <div class="col">
                 <label for="youtube-title-link"></label>
-                <input type="text"
-                       id="youtube-title-link"
-                       value="https://youtube.com"
-                >
-                <a href="#">Remove</a>
-                <br/>
-                <label for="another-link-button"></label>
-                <button id="another-link-button">Add another link</button><br />
-                <label for="cancel-button"></label>
-                <button id="cancel-button">Cancel</button>
-                <form id="save-profile" action="index.html" style="display: inline;">
-                    <label for="save-profile-button"></label>
-                    <button id="save-profile-button">Save Profile</button>
-                </form><br/>
-                <label for="edit-profile-button"></label>
-                <button id="edit-profile-button">Edit Profile</button>
-                <form id="cancel-editing" action="index.html" style="display: inline;">
-                    <label for="cancel-editing-button"></label>
-                    <button id="cancel-editing-button">Cancel Editing</button>
-                </form>
-        </td>
-    </tr>
-    </tbody>
-</table>
+                <input type="text" class="form-control" id="youtube-title-link" value="https://www.youtube.com/@WebDevTV">
+                <i class="fa fa-times" aria-hidden="true"></i>
+            </div>
+         </div>
+         <!-- <div class="mb-3">
+            <label for="name" class="form-label">Name:*</label></br>
+            <input class="form-control" id="name" value="Aarohi Nadkarni" />
+        </div> -->
+        <!-- <table width="38%">
+            <thead>
+            <th>
+                Title
+            </th>
+            <th>
+                URL
+            </th>
+            </thead>
+        </table> -->
+        <!-- <label for="youtube-title-input"></label>
+        <input type="text"
+                id="youtube-title-input"
+                value="YouTube"
+        >
+        &#8594
+        <label for="youtube-title-link"></label>
+        <input type="text"
+                id="youtube-title-link"
+                value="https://www.youtube.com/@WebDevTV"
+        > -->
+        <label for="another-link-button"></label>
+        <button id="another-link-button" type="submit" class="btn btn-secondary btn-sm edit-profile">Add another link</button><br />
+        <hr>
+        <form id="save-profile" action="index.html" style="display: inline;">
+            <label from="save-profile-button"></label>
+            <button id="save-profile-button" type="submit" class="btn btn-danger btn-sm float-end">Save Profile</button>
+        </form>
+        <form id="cancel-button" action="index.html" style="display: inline;">
+            <label from="cancel-button"></label>
+            <button id="cancel-button" type="submit" class="btn btn-secondary btn-sm edit-profile float-end">Cancel</button>
+        </form>
+        <!-- <label for="edit-profile-button"></label>
+        <button id="edit-profile-button">Edit Profile</button> -->  
+    </div>
+</body>
+</html>

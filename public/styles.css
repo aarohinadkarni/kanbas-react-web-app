@@ -1,0 +1,18 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+body * {
+    font-family: Arial, Helvetica, san-serif;
+}
+
+.wd-home-flex-column-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.wd-home-flex-row-container {
+    display: flex;
+    flex-direction: row;
+}

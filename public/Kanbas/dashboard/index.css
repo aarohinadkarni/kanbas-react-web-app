@@ -1,0 +1,9 @@
+.wd-dashboard-flex-column-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.wd-dashboard-flex-row-container {
+    display: flex;
+    flex-direction: row;
+}

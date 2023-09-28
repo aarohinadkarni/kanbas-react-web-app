@@ -1,0 +1,88 @@
+ .wd-account-navigation {
+    background-color: white;
+    list-style: none;
+    padding: 0px;
+    width: 195px;
+    margin: 0px;
+    margin-left: 0px;
+}
+
+.wd-account-navigation li.wd-active {
+   border-left: 2px solid black;
+   padding-left:8px;
+}
+
+.wd-account-navigation li.wd-active a{
+    color: black;
+}
+
+.wd-account-navigation li {
+    padding-left: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    /* margin-bottom: 10px;
+    margin-top: 10px; */
+    margin-left: 20px;
+    text-align: left;
+    text-wrap: wrap;
+}
+
+.wd-account-navigation li a {
+    color: red;
+    text-decoration: none;
+    text-wrap: wrap;
+}
+
+.wd-account-navigation a {
+    color: red;
+    text-wrap: wrap;
+    text-decoration: none;
+}
+
+.wd-account-flex-row-container {
+    display: flex;
+    flex-direction: row;
+}  
+
+.wd-account-flex-row-container {
+    display: flex;
+    flex-direction: row;
+} 
+
+.wd-account-info a {
+    color: red;
+    text-decoration: none;
+}
+
+.wd-account-info {
+    padding-left: 20px;
+}
+
+.wd-account-info button.edit-profile {
+    /* float:right; */
+    background-color: #D3D3D3;
+    color: black;
+}
+
+.wd-account-info i {
+    color: red;
+}
+
+.wd-account-info i.user {
+    color: grey;
+}
+
+.wd-account-info i.pencil {
+    color: black;
+}
+
+.wd-account-edit-info {
+    padding-left: 30px;
+}
+
+
+.wd-account-flex-column-container {
+    /* display: flex;
+    flex-direction: container; */
+}
+
