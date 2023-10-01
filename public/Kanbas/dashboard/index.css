@@ -1,9 +1,74 @@
 .wd-dashboard-flex-column-container {
     display: flex;
     flex-direction: column;
+    padding-left: 20px;
 }
 
 .wd-dashboard-flex-row-container {
     display: flex;
     flex-direction: row;
+}
+
+.wd-dashboard-card img {
+   width: 260px;
+   height: 140px;
+}
+
+.card.override-bs {
+    margin:20px;
+}
+
+.card i{
+    color: white;
+    float: right;
+}
+
+
+.published-courses-banner {
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.course-title.forest-green {
+    font-size:0.875rem;
+    color: #373D20;
+    white-space: nowrap;
+}
+
+.course-title.gray{
+    font-size:0.875rem;
+    color: #EFF1ED;
+    white-space: nowrap;
+}
+
+.course-title.musty-green {
+    font-size:0.875rem;
+    color:#717744;
+    white-space: nowrap;
+}
+
+.course-title.sage-green {
+    font-size:0.875rem;
+    color: #BCBD8B;
+    white-space: nowrap;
+}
+
+.course-section {
+    font-size:1rem;
+    color:grey;
+}
+
+.course-term {
+    font-size:12px;
+    color: grey;
+}
+
+.card-body i {
+    color: grey;
+    float: left;
+}
+
+.ellipsis {
+    display: inline;
+    color: red;
 }

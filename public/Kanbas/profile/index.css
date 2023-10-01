@@ -24,18 +24,15 @@
     margin-top: 10px; */
     margin-left: 20px;
     text-align: left;
-    text-wrap: wrap;
 }
 
 .wd-account-navigation li a {
     color: red;
     text-decoration: none;
-    text-wrap: wrap;
 }
 
 .wd-account-navigation a {
     color: red;
-    text-wrap: wrap;
     text-decoration: none;
 }
 
@@ -83,6 +80,23 @@
 
 .wd-account-flex-column-container {
     /* display: flex;
-    flex-direction: container; */
+    flex-direction: column; */
 }
+
+.banner {
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.banner i {
+    color:red;
+}
+
+/* .banner hr {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+} */
+
+
 

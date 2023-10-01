@@ -1,0 +1,51 @@
+.wd-home-flex-column-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.wd-home-flex-row-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.banner {
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.banner i {
+    color:red;
+    vertical-align: middle;
+}
+
+.banner nav {
+    text-wrap:nowrap;
+}
+
+.banner a {
+    color: red;
+    text-decoration: none;
+}
+
+.course-buttons button.regular {
+    display: inline;
+    background-color: #D3D3D3;
+    color: black;
+}
+
+/* .course-buttons button.module{
+    display: inline;
+    background-color: red;
+    color: white;
+} */
+
+.course-buttons select {
+    display: inline;
+    background-color: #D3D3D3;
+    color: black;
+}
+
+.module-content {
+    margin-left: 20px;
+    margin-top: 20px;
+}

@@ -109,10 +109,13 @@
         </ul>
     </div>
     <div class="wd-account-flex-column-container wd-account-edit-info wd-account-info wd-account-info">
-        <i class="fas fa-bars" aria-hidden="true"></i>
-        &nbsp;
-        <font size="4">Aarohi Nadkarni's Profile</font><br/>
-        <hr>
+        <div>
+            <br/>
+            <i class="fas fa-bars" aria-hidden="true"></i>
+            &nbsp;
+            <font size="4">Aarohi Nadkarni's Profile</font><br/>
+            <hr>
+        </div>
         <form id="cancel-editing" action="index.html" style="display: inline;">
             <label from="cancel-editing-button"></label>
             <button id="cancel-profile-button" type="submit" class="btn btn-secondary btn-sm edit-profile float-end"> <i class="fa fa-pencil-alt pencil"  aria-hidden="true"></i>
@@ -127,9 +130,9 @@
             <input class="form-control" id="name" value="Aarohi Nadkarni" />
         </div>
         <label for="pronouns">Pronouns:</label>
-        <select id="pronouns">
+        <select class="form-select" id="pronouns">
             <option>None</option>
-        </select><br /><br />
+        </select><br />
         <div class="mb-3">
             <label for="title" class="form-label">Title:</label></br>
             <input class="form-control" id="title"/></br>
@@ -161,8 +164,10 @@
             </div> &#8594
             <div class="col">
                 <label for="youtube-title-link"></label>
+                <span>
                 <input type="text" class="form-control" id="youtube-title-link" value="https://www.youtube.com/@WebDevTV">
                 <i class="fa fa-times" aria-hidden="true"></i>
+            </span>
             </div>
          </div>
          <!-- <div class="mb-3">
