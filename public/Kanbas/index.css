@@ -1,6 +1,6 @@
 .wd-home-flex-column-container {
-    display: flex;
-    flex-direction: column;
+    /* display: flex;
+    flex-direction: column; */
 }
 
 .wd-home-flex-row-container {
@@ -9,13 +9,15 @@
 }
 
 .banner {
-    margin-top: 20px;
-    margin-left: 20px;
+    margin-top: 30px;
+    margin-left: 30px;
+    text-wrap: nowrap;
 }
 
 .banner i {
     color:red;
     vertical-align: middle;
+    margin-top: -3px;
 }
 
 .banner nav {
@@ -48,4 +50,35 @@
 .module-content {
     margin-left: 20px;
     margin-top: 20px;
+    width: 900px;
 }
+
+.module-content a {
+    text-decoration: none;
+    color: red;
+}
+
+.course-status-buttons {
+    /* padding-left: 40px; */
+    margin-left: 20px;
+    width: 250px;
+    /* margin-top: 20px; */
+}
+
+.course-status-buttons button.regular {
+    display: inline;
+    background-color: #D3D3D3;
+    color: black;   
+}
+
+.course-status-buttons button.published {
+    display: inline;
+    background-color: #53d475;
+    color: white;   
+}
+
+.course-status-buttons ul {
+    list-style: none
+}
+
+

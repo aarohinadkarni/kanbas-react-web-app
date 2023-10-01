@@ -79,17 +79,17 @@
         </div>
         <div class="wd-home-flex-column-container">
             <div class="banner">
-                <span>
-                <i class="fas fa-bars" aria-hidden="true"></i>
-                &nbsp;
+                <!-- <span> -->
+                <!-- <i class="fas fa-bars" aria-hidden="true"></i>
+                &nbsp; -->
                 <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
                     <ol class="breadcrumb">
-                        <li class="breadcrumb-item"><a href="">CS4550.12631.202410</a></li>
+                        <li class="breadcrumb-item"><a href=""><i class="fas fa-bars" aria-hidden="true"></i> CS4550.12631.202410</a></li>
                         <li class="breadcrumb-item active" aria-current="page">Home</li>
                     </ol>
                   </nav>
                 <hr style="width: 100%;">
-                </span>
+                <!-- </span> -->
                 </br>
             </div>
 
@@ -155,107 +155,169 @@
             <div class="wd-home-flex-column-container">
                 <div class="course-buttons">
                     <span>
-                    <!-- <label for="another-link-button"></label>
-        <button id="another-link-button" type="submit" class="btn btn-secondary btn-sm edit-profile">Add another link</button><br /> -->
-                    <label for="collapse-button" ></label>
-                    <button type="submit" class="btn btn-secondary btn-sm regular" id="collapse-button">Collapse All</button>
-                    <label for="progress-button"></label>
-                    <button type="submit" class="btn btn-secondary btn-sm regular" id="progress-button">View Progress</button>
-
+                    <label for="ellipsis-button"></label>
+                    <button type="submit" class="btn btn-secondary btn-sm regular float-end py-2" id="ellipsis-button">
+                    <span class="fa fa-ellipsis-v" aria-hidden="true"></span>
+                    </button>
+                    &nbsp;    
+                    <label for="module-button"></label>
+                    <button type="submit" class="btn btn-danger btn-sm float-end" id="module-button">
+                    <span class="fa fa-plus" aria-hidden="true"></span>
+                    Module
+                    </button>
+                    &nbsp;
                     <label for="select-publish"></label>
-                    <select class="form-select" data-show-content="true" id="select-publish" style="width: auto;">
+                    <select class="form-select float-end py-1" data-show-content="true" id="select-publish" style="width: auto;">
                         <!-- <option data-content="<i class='fa fa-check-circle'></i> Publish All"></option> -->
                         <option>Publish All</option>
                         <option>Publish All modules and items</option>
                         <option>Publish modules only</option>
                         <option>Unpublish All</option>
                     </select>
-
-                    <label for="module-button"></label>
-                    <button type="submit" class="btn btn-danger btn-sm" id="module-button">Module</button>
-
-                    <label for="ellipsis-button"></label>
-                    <button type="submit" class="btn btn-secondary btn-sm regular" id="ellipsis-button">:</button>
-                    </hr>
+                    &nbsp;
+                    <label for="collapse-button" ></label>
+                    <button type="submit" class="btn btn-secondary btn-sm regular float-end" id="collapse-button">Collapse All</button>
+                    <label for="progress-button"></label>
+                    <button type="submit" class="btn btn-secondary btn-sm regular float-end" id="progress-button">View Progress</button>
+                    <hr>
                     </span>
                 </div>
-                <div class="wd-home-flex-row-container">
-                    <div class="wd-home-flex-column-container">
-                <div class="module-content">
-                    <ul class="list-group">
-                        <li class="list-group-item list-group-item-secondary">
-                            Week 0 - INTRO
-                            <ul class="list-group">
-                                <li class="list-group-item" >LEARNING OBJECTIVES</li>
-                                <ul>
-                                    <li class="list-group-item">Introduction to the course</li>
-                                    <li class="list-group-item">Learn what is Web Development</li>
-                                    <li class="list-group-item">Creating a development environment</li>
-                                    <li class="list-group-item">Creating a Web Application</li>
-                                    <li class="list-group-item">Getting started with the 1st assignment</li>
-                                </ul>
-                            </ul>
-                            <ul class="list-group">
-                                <li class="list-group-item">READING</li>
+                <!-- <div class="wd-home-flex-row-container"> -->
+                <div class="wd-home-flex-column-container">
+                    <div class="module-content">
+                        <ul class="list-group">
+                            <li class="list-group-item list-group-item-secondary">
+                                Week 0 - INTRO
                                 <ul class="list-group">
-                                    <li class="list-group-item">Full Stack Developer - Chapter 1 - Introduction</li>
-                                    <li class="list-group-item">Full Stack Developer - Chapter 2 - Creating User Interfaces With HTML</li>
+                                    <li class="list-group-item" >LEARNING OBJECTIVES</li>
+                                    <ul>
+                                        <li class="list-group-item">Introduction to the course</li>
+                                        <li class="list-group-item">Learn what is Web Development</li>
+                                        <li class="list-group-item">Creating a development environment</li>
+                                        <li class="list-group-item">Creating a Web Application</li>
+                                        <li class="list-group-item">Getting started with the 1st assignment</li>
+                                    </ul>
                                 </ul>
-                            </ul>
-                            <ul class="list-group">
-                                <li class="list-group-item">SLIDES</li>
                                 <ul class="list-group">
-                                    <li class="list-group-item"><a href="#">Introduction to Web Development</a></li>
-                                    <li class="list-group-item"><a href="#">Creating an HTTP Server with Node.js</a></li>
-                                    <li class="list-group-item"><a href="#">Creating a React Application</a></li>
+                                    <li class="list-group-item">READING</li>
+                                    <ul class="list-group">
+                                        <li class="list-group-item">Full Stack Developer - Chapter 1 - Introduction</li>
+                                        <li class="list-group-item">Full Stack Developer - Chapter 2 - Creating User Interfaces With HTML</li>
+                                    </ul>
                                 </ul>
-                            </ul>
-                        </li>
-                        <li class="list-group-item list-group-item-secondary">
-                            Week 1 - HTML
-                            <ul class="list-group">
-                                <li class="list-group-item">LEARNING OBJECTIVES</li>
-                                <ul>
-                                    <li class="list-group-item">Learn how to create user interfaces with HTML</li>
-                                    <li class="list-group-item">Keep working on assignment 1</li>
-                                    <li class="list-group-item">Deploy the assignment to Netlify</li>
-                                </ul>
-                            </ul>
-                            <ul class="list-group">
-                                <li class="list-group-item">READING</li>
                                 <ul class="list-group">
-                                    <li class="list-group-item">Full Stack Developer - Chapter 1 - Introduction</li>
-                                    <li class="list-group-item">Full Stack Developer - Chapter 2 - Creating User Interfaces With HTML</li>
+                                    <li class="list-group-item">SLIDES</li>
+                                    <ul class="list-group">
+                                        <li class="list-group-item"><a href="https://docs.google.com/presentation/d/1yb_fQd5MhVuFczb5F5II0CoDkVJALFqxUnuwPAXiOAU/edit#slide=id.g40a3481019_0_0">Introduction to Web Development</a></li>
+                                        <li class="list-group-item"><a href="https://docs.google.com/presentation/d/16yDwIH8np-tQL85g4bpmrsDfO8LaW38jr-fMQirLnoQ/edit#slide=id.p">Creating an HTTP Server with Node.js</a></li>
+                                        <li class="list-group-item"><a href="https://docs.google.com/presentation/d/10B3jLiJ8-HMsA6TPq9JuWfJzsvX9SFnYVuhthrQbFwU/edit#slide=id.p">Creating a React Application</a></li>
+                                    </ul>
                                 </ul>
-                            </ul>
-                        </li>
+                            </li>
+                            <li class="list-group-item list-group-item-secondary">
+                                Week 1 - HTML
+                                <ul class="list-group">
+                                    <li class="list-group-item">LEARNING OBJECTIVES</li>
+                                    <ul>
+                                        <li class="list-group-item">Learn how to create user interfaces with HTML</li>
+                                        <li class="list-group-item">Keep working on assignment 1</li>
+                                        <li class="list-group-item">Deploy the assignment to Netlify</li>
+                                    </ul>
+                                </ul>
+                                <ul class="list-group">
+                                    <li class="list-group-item">READING</li>
+                                    <ul class="list-group">
+                                        <li class="list-group-item">Full Stack Developer - Chapter 1 - Introduction</li>
+                                        <li class="list-group-item">Full Stack Developer - Chapter 2 - Creating User Interfaces With HTML</li>
+                                    </ul>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="wd-home-flex-column-container">
+                <div class="wd-home-flex-column-container course-status-buttons">
+                    <h5>Course Status</h5>
+                    <label for="unpublish-button"></label>
+                    <button type="submit" class="btn btn-secondary btn-sm regular" id="unpublish-button">
+                        <i class="fa fa-ban" aria-hidden="true"></i>
+                        Unpublish
+                    </button>
+                    <label for="published-button"></label>
+                    <button type="submit" class="btn btn-secondary btn-sm published" id="published-button">
+                        <i class="fa fa-check-circle" aria-hidden="true"></i>
+                        Published
+                    </button>
+                </br></br>
+                    <!-- <ul>
+                        <li> -->
+                            <label for="import-existing-button"></label>
+                            <button type="submit" class="btn btn-secondary btn-sm regular" id="import-existing-button">
+                                <i class="fa fa-file-import" aria-hidden="true"></i>
+                                Import Existing Content
+                            </button>
+                        </br>
+                        <!-- </li>
+                        <li> -->
+                            <label for="import-commons-button"></label>
+                            <button type="submit" class="btn btn-secondary btn-sm regular" id="import-commons-button">
+                                <i class="fa fa-upload" aria-hidden="true"></i>
+                                Import From Commons
+                            </button>
+                        </br>
+                        <!-- </li>
+                        <li> -->
+                            <label for="choose-home-button"></label>
+                            <button type="submit" class="btn btn-secondary btn-sm regular" id="choose-home-button">
+                                <i class="fa fa-bullseye" aria-hidden="true"></i>
+                                Choose Home Page
+                            </button>
+                        </br>
+                        <!-- </li>
+                        <li> -->
+                            <label for="course-stream-button"></label>
+                            <button type="submit" class="btn btn-secondary btn-sm regular" id="course-stream-button">
+                                <i class="fa fa-chart-bar" aria-hidden="true"></i>
+                                View Course Stream
+                            </button>
+                        </br>
+                        <!-- </li>
+                        <li> -->
+                            <label for="new-announcement-button"></label>
+                            <button type="submit" class="btn btn-secondary btn-sm regular" id="new-announcement-button">
+                                <i class="fa fa-bullhorn" aria-hidden="true"></i>
+                                New Announcement
+                            </button>
+                        </br>
+                        <!-- </li>
+                        <li> -->
+                            <label for="new-analytics-button"></label>
+                            <button type="submit" class="btn btn-secondary btn-sm regular" id="new-analytics-button">
+                                <i class="fa fa-chart-bar" aria-hidden="true"></i>
+                                New Analytics
+                            </button>
+                        </br>
+                        <!-- </li>
+                        <li> -->
+                            <label for="course-notifs-button"></label>
+                            <button type="submit" class="btn btn-secondary btn-sm regular" id="course-notifs-button">
+                                <i class="fa fa-bell" aria-hidden="true"></i>
+                                View Course Notifications
+                            </button>
+                        </br>
+                        <!-- </li>
+                    </ul> -->
+                    <h2>Coming Up</h2>
+                    <a href="#">View Calendar</a>
+                    <ul>
+                        <li><a href="#">Lecture CS4550.12631.202410 Sep 7 at 11:45am</a></li>
+                        <li><a href = "#">Lecture CS4550.12631.202410 Sep 11 at 11:45am</a></li>
+                        <li><a href = '#'>CS5610 06 SP23 Lecture Sep 11 at 6pm</a></li>
                     </ul>
                 </div>
             </div>
-        </div>
-            <div class="wd-home-flex-column-container">
-                <h2>Course Status</h2>
-                <label for="unpublish-button"></label>
-                <button id="unpublish-button">Unpublish</button>
-                <label for="published-button"></label>
-                <button id="published-button">Published</button>
-                <ul>
-                    <li><a href="#">Import Existing Content</a></li>
-                    <li><a href = "#">Import From Commons</a></li>
-                    <li><a href = '#'>Choose Home Page</a></li>
-                    <li><a href = '#'>View Course Stream</a></li>
-                    <li><a href = '#'>New Announcement</a></li>
-                    <li><a href = '#'>New Analytics</a></li>
-                    <li><a href = '#'>View Course Notifications</a></li>
-                </ul>
-                <h2>Coming Up</h2>
-                <a href="#">View Calendar</a>
-                <ul>
-                    <li><a href="#">Lecture CS4550.12631.202410 Sep 7 at 11:45am</a></li>
-                    <li><a href = "#">Lecture CS4550.12631.202410 Sep 11 at 11:45am</a></li>
-                    <li><a href = '#'>CS5610 06 SP23 Lecture Sep 11 at 6pm</a></li>
-                </ul>
-            </div>
+                <!-- </div> -->
         </div>
     </div>
 </body>
