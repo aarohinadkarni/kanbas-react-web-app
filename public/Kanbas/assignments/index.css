@@ -48,4 +48,9 @@
 .assignment-options {
     margin-left: 20px;
     margin-top: -20px;
+    width: 1150px;
+}
+
+.assignment-inputs {
+    margin-left: 20px;
 }
