@@ -5,6 +5,7 @@
     width: 120px;
     margin: 0px;
     margin-left: 20px;
+    text-decoration: none;
 }
 
 .wd-course-navigation li.wd-active{
@@ -26,5 +27,6 @@
 
 .wd-course-navigation li a{
     color: red;
+    text-decoration: none;
 }
 

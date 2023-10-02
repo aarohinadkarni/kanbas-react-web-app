@@ -1,84 +1,194 @@
-.wd-home-flex-column-container {
-    /* display: flex;
-    flex-direction: column; */
-}
+    .wd-home-flex-column-container {
+        /* display: flex;
+        flex-direction: column; */
+    }
 
-.wd-home-flex-row-container {
-    display: flex;
-    flex-direction: row;
-}
+    .wd-home-flex-row-container {
+        display: flex;
+        flex-direction: row;
+    }
 
-.banner {
-    margin-top: 30px;
-    margin-left: 30px;
-    text-wrap: nowrap;
-}
+    .banner {
+        margin-top: 30px;
+        margin-left: 30px;
+        text-wrap: nowrap;
+    }
 
-.banner i {
-    color:red;
-    vertical-align: middle;
-    margin-top: -3px;
-}
+    .banner i {
+        color:red;
+        vertical-align: middle;
+        margin-top: -3px;
+    }
 
-.banner nav {
-    text-wrap:nowrap;
-}
+    .banner button.regular {
+        color:black;
+        background-color: #D3D3D3;
+        vertical-align: middle;
+        margin-top: -40px;
+    }
 
-.banner a {
-    color: red;
-    text-decoration: none;
-}
+    .banner button i {
+        color:black;
+        vertical-align: middle;
+        margin-top: -3px;
+    }
 
-.course-buttons button.regular {
-    display: inline;
-    background-color: #D3D3D3;
-    color: black;
-}
+    .banner nav {
+        text-wrap:nowrap;
+    }
 
-/* .course-buttons button.module{
-    display: inline;
-    background-color: red;
-    color: white;
-} */
+    .banner a {
+        color: red;
+        text-decoration: none;
+    }
 
-.course-buttons select {
-    display: inline;
-    background-color: #D3D3D3;
-    color: black;
-}
+    .course-buttons button.regular {
+        display: inline;
+        background-color: #D3D3D3;
+        color: black;
+    }
 
-.module-content {
-    margin-left: 20px;
-    margin-top: 20px;
-    width: 900px;
-}
+    .course-buttons i {
+        color: green;
+        margin-left:0px;
+    }
 
-.module-content a {
-    text-decoration: none;
-    color: red;
-}
+    /* .course-buttons button.module{
+        display: inline;
+        background-color: red;
+        color: white;
+    } */
 
-.course-status-buttons {
-    /* padding-left: 40px; */
-    margin-left: 20px;
-    width: 250px;
-    /* margin-top: 20px; */
-}
+    .course-buttons select {
+        display: inline;
+        background-color: #D3D3D3;
+        color: black;
+    }
 
-.course-status-buttons button.regular {
-    display: inline;
-    background-color: #D3D3D3;
-    color: black;   
-}
+    .module-content {
+        margin-left: 20px;
+        margin-top: 20px;
+        width: 900px;
+    }
 
-.course-status-buttons button.published {
-    display: inline;
-    background-color: #53d475;
-    color: white;   
-}
+    .module-content i{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
 
-.course-status-buttons ul {
-    list-style: none
-}
+    .module-content i.link{
+        color:green;
+    }
+
+    .module-content i.external{
+        color:red;
+    }
+
+    .module-content ul{
+        padding:0px;
+    }
+
+    .module-content i.times{
+        color:green;
+    }
+
+    .module-content i.ellipse{
+        color: gray;
+    }
+
+    .module-content a {
+        text-decoration: none;
+        color: red;
+    }
+
+    .course-status-buttons {
+        /* padding-left: 40px; */
+        margin-left: 20px;
+        margin-top: -30px;
+        width: 250px;
+        /* margin-top: 20px; */
+    }
+
+    .course-status-buttons button{
+        text-align: left;
+    }
+
+    .course-status-buttons button.regular {
+        display: inline;
+        background-color: #D3D3D3;
+        color: black;   
+    }
+
+    .course-status-buttons button.published {
+        display: inline;
+        background-color: green;
+        color: white;   
+    }
+
+    .course-status-buttons ul {
+        list-style: none;
+        width: auto;
+    }
+
+    .coming-up {
+        text-decoration: none;
+
+    }
 
 
+    .to-do i {
+        display: inline;
+        color: red;
+    }
+
+    .to-do i.times {
+        display: inline;
+        color: grey;
+    }
+
+    .to-do a{
+        color: red;
+        text-decoration: none;
+    }
+
+    .to-do-grade {
+        color: red
+    }
+
+   .to-do-details {
+        color: grey;
+    }
+
+    .list-group-item.reading {
+        padding-left:50px;
+    }
+
+    .module-content li.green-list{
+        border-left-color:green;
+        border-left-width:2px;
+    }
+
+    .grades-buttons {
+        margin-top: 20px;
+        width: 100%;
+    }
+
+    .grades-buttons button.regular {
+        display: inline;
+        background-color: #D3D3D3;
+        color: black;   
+    }
+
+    .table.heading {
+        text-align: center;
+    }
+
+    .table th.not-bold {
+        font-weight: 100;
+    }
+
+    .table td.name {
+        color:red;
+    }
+    
+    
