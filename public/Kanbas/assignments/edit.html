@@ -177,54 +177,63 @@
                     </span>
                 </div>
                 <hr>
-                <form id="assignment-details" action="index.html">
+                <!-- <form id="assignment-details" action="index.html"> -->
                     <label for="assignment-name">Assignment Name</label><br>
                     <input id="assignment-name" class="form-control" value="A1 - ENV + HTML" /><br />
                     <label for="assignment-description-textarea"></label><br />
-                    <textarea class="form-control" cols="20" rows="2" id="assignment-description-textarea">This is the assignment description.
+                    <textarea class="form-control" cols="120" rows="2" id="assignment-description-textarea">This is the assignment description.
                     </textarea><br /><br />
                     <div class="assignment-inputs">
-                        <div class="row">
-                            <div class="col-auto">
-                                <label for="points">Points</label><br />
+                        <div class="row edit">
+                            <div class="col-md-3">
+                                <label for="points" class="float-end">Points</label>
                             </div>
-                            <div class="col-auto">
+                            <div class="col-md-9">
                                 <input
                                         type="text"
                                         id="points"
                                         value="100"
                                         class="form-control"
-                                /><br /><br />
+                                />
                             </div>
                         </div>
-                        <div class="row">
-                            <div class="col-auto">
-                                <label for="assignment-group">Assignment Group</label><br />
+                        <div class="row edit">
+                            <div class="col-md-3">
+                                <label for="assignment-group" class="float-end">Assignment Group</label>
                             </div>
-                            <div class="col-auto mb-3">
-                                <select id="assignment-group" class="form-control">
+                            <div class="col-md-9 mb-3">
+                                <select id="assignment-group" class="form-select">
                                     <option>ASSIGNMENTS</option>
-                                </select><br /><br />
+                                </select>
                             </div>
                         </div>
-                        <div class="row">
-                            <div class="col-auto">
-                                <label for="display-grade">Display Grade as</label><br />
+                        <div class="row edit">
+                            <div class="col-md-3">
+                                <label for="display-grade" class="float-end">Display Grade as</label>
                             </div>
-                            <div class="col-auto">
-                                <select class="form-control" id="display-grade" class="form-control">
+                            <div class="col-md-9">
+                                <select class="form-select" id="display-grade">
                                     <option>Percentage</option>
-                                </select><br /><br />
+                                </select>
                             </div>
                         </div>
-                        <div class="row">
-                            <div class="col-auto">
-                                <label for="submission-type">Submission Type</label><br />
+                        <div class="row edit">
+                            <div class="col-md-3">
                             </div>
-                            <div class="col-auto">
+                            <div class="col-md-9">
+                                <input class="form-check-input" type="checkbox" value="Not counted towards final grade" name="count-towards-final-grades" id="chkbox-not-counter">
+                                <label class="form-check-label" for="chkbox-not-counter" style="margin-left: 5px;">
+                                    Do not count this assignment towards final grade
+                                </label>
+                            </div>
+                        </div>
+                        <div class="row edit">
+                            <div class="col-md-3">
+                                <label for="submission-type" class="float-end">Submission Type</label>
+                            </div>
+                            <div class="col-md-9">
                                 <div class="border rounded edit">
-                        
-                                    <select id="submission-type" class="form-control">
+                                    <select id="submission-type" class="form-select" style="width:40%;">
                                         <option>Online</option>
                                     </select><br />
                                     <label><b>Online Entry Options</b></label>
@@ -330,30 +339,56 @@
                     />
                     <label for="chkbox-require-peer-reviews">Require Peer Reviews</label> <br /><br />
                     Assign <br /> -->
-
                     <div class="row">
-                        <div class="col-auto">
-                            Assign
+                        <div class="col-md-3">
+                            <div class="float-end">Assign</div>
                         </div>
-                        <div class="col-auto">
-                            <label for="assign-to"><b>Assign to</b></label><br />
-                            <input class="form-control" id="assign-to" value="Everyone" /><br /><br />
-                            <label for="due-by"><b>Due</b></label><br />
-                            <input type="date" id="due-by" value="2021-01-01" /><br /><br />
-                            <label for="available-from"><b>Available from</b></label><br />
-                            <input type="date" id="available-from" value="2021-01-01" /><br /><br />
-                            <label for="until"><b>Until</b></label><br />
-                            <input type="date" id="until" value="2021-01-01" /><br /><br />
+                        <div class="col-md-9">
+                            <div class="border rounded edit">
+                                <label for="assign-to"><b>Assign to</b></label>
+                                <input class="form-control" id="assign-to" value="Everyone" /></br>
+                                <label for="due-by"><b>Due</b></label>
+                                <input class="form-control" type="date" id="due-by" value="2023-09-18" /></br>
+                                <div class="row override">
+                                    <div class="col">
+                                        <label for="available-from"><b>Available from</b></label>
+                                        <input class="form-control" type="date" id="available-from" value="2023-09-06" />
+                                    </div>
+                                    <div class="col">
+                                        <label for="until"><b>Until</b></label>
+                                        <input class="form-control"  type="date" id="until" />
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
+                <hr>
+                    <!-- <div class="banner"> -->
+                    <input class="form-check-input" type="checkbox" value="Not counted towards final grade" name="notify-content-changed" id="chkbox-content-changed">
+                            <label class="form-check-label" for="chkbox-content-changed" style="margin-left: 5px;">
+                                Notify users that this content has changed
+                            </label>
+                    <form id="save-button" action="index.html" style="display: inline;">
+                        <label for="save-button"></label>
+                        <button type="submit" class="btn btn-danger btn-sm float-end" id="save-button">Save</button>
+                    </form>        
+                    <form id="cancel-button" action="index.html" style="display: inline;">
+                        <button type="submit" class="btn btn-secondary btn-sm regular float-end" id="cancel-button">Cancel</button>
+                        <label for="cancel-button"></label>
+                    </form>
                     
-                    <div class="banner">
-                    <label for="cancel-button"></label>
-                    <button type="submit" class="btn btn-secondary btn-sm regular" id="cancel-button">Cancel</button>
-                    <label for="save-button"></label>
-                    <button type="submit" class="btn btn-secondary btn-sm regular" id="save-button">Save</button>
-                </div>
+                    <!-- <button type="submit" class="btn btn-secondary btn-sm regular float-end" id="cancel-button">Cancel</button> -->
+                    
+                <!-- </div> -->
+                <!-- <form id="save-profile" action="index.html" style="display: inline;">
+                    <label from="save-profile-button"></label>
+                    <button id="save-profile-button" type="submit" class="btn btn-danger btn-sm float-end">Save Profile</button>
+                </form>
+                <form id="cancel-button" action="index.html" style="display: inline;">
+                    <label from="cancel-button"></label>
+                    <button id="cancel-button" type="submit" class="btn btn-secondary btn-sm edit-profile float-end">Cancel</button>
+                </form> -->
                 </form>
                 <!-- <div class="wd-home-flex-column-container">
                     <div class="module-content">
