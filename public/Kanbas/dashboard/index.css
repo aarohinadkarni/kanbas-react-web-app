@@ -72,3 +72,23 @@
     display: inline;
     color: red;
 }
+
+.stretched-link.override {
+    text-decoration: none;
+}
+
+.stretched-link.forest-green {
+    color: #373D20;
+}
+
+.stretched-link.gray {
+    color: #EFF1ED;
+}
+
+.stretched-link.musty-green {
+    color:#717744;
+}
+
+.stretched-link.sage-green {
+    color: #BCBD8B;
+}
