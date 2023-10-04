@@ -35,7 +35,11 @@
 }
 
 .wd-kanbas-navigation a i.account{
-    color: grey;
+    color: white;
+}
+
+.wd-kanbas-navigation a i.account-active{
+    color: black;
 }
 
 .wd-kanbas-navigation li img {
