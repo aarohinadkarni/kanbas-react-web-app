@@ -1,0 +1,72 @@
+.wd-kanbas-navigation .list-group {
+    background-color: black;
+    list-style: none;
+    padding: 0px;
+    width: 80px;
+    height: 100%;
+    margin: 0px;
+}
+
+.wd-kanbas-navigation .list-group-item {
+    background-color: black;
+    color: white;
+    /* padding-left: 0px; */
+    margin-left: 0px;
+    padding: 10px;
+    font-size: 0.8em;
+    text-align: center;
+}
+
+.wd-kanbas-navigation .list-group-item:first-child {
+    border-radius: 0
+}
+
+.wd-kanbas-navigation .list-group-item:last-child {
+    border-radius: 0
+}
+
+.wd-kanbas-navigation .list-group-item Link {
+    text-decoration: none;
+    color: white;
+    font-size: 0.8em;
+}
+
+.wd-kanbas-navigation .list-group-item.active {
+    background-color: white;
+    color: red;
+}
+
+.wd-kanbas-navigation .list-group-item.active Link {
+    color: red;
+}
+
+.wd-kanbas-navigation svg {
+    color: red;
+    font-size:1.5em;
+    margin-bottom: 5px;
+}
+
+.wd-kanbas-navigation .list-group-item.account svg {
+    color: white;
+  }
+  
+.wd-kanbas-navigation .list-group-item.account-active svg{
+    color: black;
+}
+
+.wd-kanbas-navigation .list-group-item img {
+    display: block;
+    width: 5px;
+    height: 5px;
+}
+
+.wd-kanbas-navigation .image-container {
+    background-color: black;
+  }
+  
+.wd-kanbas-navigation .image-container img {
+    display: block;
+    width: 60px;
+    height: 50px;
+    margin: auto;
+}
