@@ -1,0 +1,50 @@
+.wd-course-navigation {
+    background-color: white;
+    list-style: none;
+    padding: 0px;
+    width: 120px;
+    margin: 0px;
+    margin-left: 20px;
+    text-decoration: none;
+}
+
+.wd-course-navigation .list-group-item.active {
+    background-color: white;
+    border-left: 2px solid black;
+    color: black;
+}
+
+.wd-course-navigation .list-group-item.active Link{
+    color: black;
+}
+
+.wd-course-navigation .list-group-item {
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    padding-right: 10px;
+    border-right: none;
+    border-top: none;
+    border-bottom: none;
+    border-left: none;
+    color: red;
+    /* margin-bottom: 10px;
+    margin-top: 10px; */
+}
+
+.wd-course-navigation .list-group-item Link {
+    color: red;
+    text-decoration: none;
+}
+
+.wd-course-navigation .list-group-item:first-child {
+    border-radius: 0
+}
+
+.wd-course-navigation .list-group-item:last-child {
+    border-radius: 0
+}
+
+.breadcrumb-item+.breadcrumb-item::before {
+    --bs-breadcrumb-divider: ">"
+}
