@@ -1,8 +1,9 @@
 import { Link, useParams, useLocation } from "react-router-dom";
-
+import { FaUserCircle, FaTachometerAlt, FaBook, FaCalendarAlt, FaInbox, FaClock, FaPhotoVideo, FaSignOutAlt, FaQuestionCircle } from "react-icons/fa";
+import React from 'react';
 
 function CourseNavigation() {
-  const links = ["Home", "Modules", "Assignments", "Grades"];
+  const links = ["Home", "Modules", "Piazza", "Zoom Meetings", "Assignments", "Quizzes", "Grades", "People", "Panopto Video", "Discussions", "Announcements", "Page", "Files", "Rubrics", "Outcomes", "Collaborations", "Syllabus", "Settings"];
   const { courseId } = useParams();
   const { pathname } = useLocation();
   return (

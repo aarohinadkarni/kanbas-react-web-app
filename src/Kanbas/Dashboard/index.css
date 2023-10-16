@@ -1,0 +1,96 @@
+.wd-dashboard-flex-column-container {
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+}
+
+.wd-dashboard-flex-row-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.card.override-bs img {
+   width: 260px;
+   height: 140px;
+}
+
+.card.override-bs {
+    margin:20px;
+}
+
+.card svg {
+    color: white;
+    float: right;
+}
+
+.dashboard-banner {
+    margin-left: 20px;
+}
+
+.published-courses-banner {
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.course-title.forest_green {
+    font-size:0.875rem;
+    color: #373D20;
+    white-space: nowrap;
+}
+
+.course-title.gray{
+    font-size:0.875rem;
+    color: #EFF1ED;
+    white-space: nowrap;
+}
+
+.course-title.musty_green {
+    font-size:0.875rem;
+    color:#717744;
+    white-space: nowrap;
+}
+
+.course-title.sage_green {
+    font-size:0.875rem;
+    color: #BCBD8B;
+    white-space: nowrap;
+}
+
+.course-section {
+    font-size:1rem;
+    color:grey;
+}
+
+.course-term {
+    font-size:12px;
+    color: grey;
+}
+
+.card-body svg {
+    color: grey;
+    float: left;
+}
+
+.ellipsis {
+    color: red;
+}
+
+.stretched-link.override {
+    text-decoration: none;
+}
+
+.stretched-link.forest_green {
+    color: #373D20;
+}
+
+.stretched-link.gray {
+    color: #EFF1ED;
+}
+
+.stretched-link.musty_green {
+    color:#717744;
+}
+
+.stretched-link.sage_green {
+    color: #BCBD8B;
+}

@@ -12,7 +12,7 @@ function KanbasNavigation() {
   const { pathname } = useLocation();
   return (
     <div class="wd-account-flex-column-container">
-      <div className="list-group wd-kanbas-navigation">
+      <div className="list-group wd-kanbas-navigation" style={{ backgroundColor: 'black' }}>
         <div class="image-container">
           <img src={logo}/>
         </div>

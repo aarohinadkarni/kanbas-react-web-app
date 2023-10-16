@@ -8,6 +8,21 @@
     },
     { "_id": "RS103",
         "name": "Spacecraft Design", "number": "RS4570", "startDate": "2023-01-10", "endDate": "2023-05-15"
+    },
+    { "_id": "RS104",
+    "name": "Flight Mechanics", "number": "RS4580", "startDate": "2023-01-10", "endDate": "2023-05-15"
+    },
+    { "_id": "RS105",
+        "name": "Fluid Dynamics", "number": "RS4590", "startDate": "2023-01-10", "endDate": "2023-05-15"
+    },
+    { "_id": "RS106",
+        "name": "Space Mechanics", "number": "RS4600", "startDate": "2023-01-10", "endDate": "2023-05-15"
+    },
+    { "_id": "RS107",
+        "name": "Astronautics", "number": "RS4610", "startDate": "2023-01-10", "endDate": "2023-05-15"
+    },
+    { "_id": "RS108",
+        "name": "Design Optimization", "number": "RS4620", "startDate": "2023-01-10", "endDate": "2023-05-15"
     }
 ]
   
