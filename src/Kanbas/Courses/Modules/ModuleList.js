@@ -19,7 +19,7 @@ function ModuleList() {
             <>
             <li key={index} className="list-group-item list-group-item-secondary" style={{paddingLeft: 0, paddingBottom: 0, paddingRight: 0}}>
               <div style={{paddingLeft: 10}}>{module.name}</div>
-              <div className="d-flex justify-content-end align-items-center">
+              <div className="d-flex justify-content-end align-items-center" style={{marginTop: -20, marginBottom: 10}}>
                 <FaEllipsisV  className="me-3" style={{color:"grey"}}/>
                 <FaPlus className="me-3" style={{color:"grey"}}/>
                 <FaCheckCircle className="me-3" style={{color:"green"}}/>
