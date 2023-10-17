@@ -89,11 +89,11 @@
         padding:0px;
     }
 
-    .module-content i.times{
+    .module-content.times svg {
         color:green;
     }
 
-    .module-content i.ellipse{
+    .module-content.ellipse svg{
         color: gray;
     }
 
@@ -164,7 +164,7 @@
         padding-left:50px;
     }
 
-    .module-content li.green-list{
+    .module-content .green-list{
         border-left-color:green;
         border-left-width:2px;
     }
