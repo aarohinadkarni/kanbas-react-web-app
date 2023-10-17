@@ -9,7 +9,7 @@
     }
 
     .banner {
-        margin-top: 30px;
+        margin-top: 20px;
         margin-left: 30px;
         text-wrap: nowrap;
     }
@@ -68,7 +68,7 @@
     .module-content {
         margin-left: 20px;
         margin-top: 20px;
-        width: 900px;
+        width: 880px;
         /* flex-grow: 1; */
     }
 
@@ -105,12 +105,12 @@
     .course-status-buttons {
         /* padding-left: 40px; */
         margin-left: 20px;
-        margin-top: -30px;
+        margin-top: -40px;
         width: 250px;
         /* margin-top: 20px; */
     }
 
-    .course-status-buttons button{
+    .course-status-buttons button {
         text-align: left;
     }
 
@@ -137,12 +137,12 @@
     }
 
 
-    .to-do i {
+    .to-do svg {
         display: inline;
         color: red;
     }
 
-    .to-do i.times {
+    .to-do svg.times {
         display: inline;
         color: grey;
     }

@@ -26,6 +26,7 @@ function Courses() {
         <label for="student-view-button"></label>
         <button type="submit" className="btn btn-secondary btn-sm regular float-end" id="student-view-button">
             <FaGlasses/>
+            &nbsp;
             Student View
         </button>
         <hr style={{width: "100%"}}></hr>
@@ -34,7 +35,6 @@ function Courses() {
         <CourseNavigation />
         <div>
           <div
-            className="wd-home-flex-column-container"
             // style={{
             //   left: "320px",
             //   top: "200px",
