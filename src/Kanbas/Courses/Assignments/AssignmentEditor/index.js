@@ -20,13 +20,13 @@ function AssignmentEditor() {
   };
   return (
     <div className="wd-home-flex-column-container flex-grow-1 assignment-options">
-      <div className="d-flex justify-content-end course-buttons published">
+      <div className="d-flex justify-content-end course-buttons published" style={{marginTop: 20}}>
             <FaCheckCircle/>
             <b>Published</b>
         <span>
         <label for="ellipsis-button"></label>
         <button type="submit" className="btn btn-secondary btn-sm regular py-2" id="ellipsis-button">
-        <FaEllipsisV/>
+        <FaEllipsisV style={{color:"black"}}/>
         </button>
         </span>
       </div>
