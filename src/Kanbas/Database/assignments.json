@@ -7,5 +7,20 @@
     { "_id": "A203", "title": "Heating Analysis", "course": "RS102" },
     { "_id": "A301", "title": "Structural Design Task", "course": "RS103" },
     { "_id": "A302", "title": "Orbital Calculations", "course": "RS103" },
-    { "_id": "A303", "title": "Systems Engineering Exam", "course": "RS103" }
+    { "_id": "A303", "title": "Systems Engineering Exam", "course": "RS103" },
+    { "_id": "A401", "title": "Basic Flight Principles", "course": "RS104" },
+    { "_id": "A402", "title": "Aircraft Stability Analysis", "course": "RS104" },
+    { "_id": "A403", "title": "Performance Metrics", "course": "RS104" },
+    { "_id": "A501", "title": "Fluid Properties Quiz", "course": "RS105" },
+    { "_id": "A502", "title": "Flow Analysis Assignment", "course": "RS105" },
+    { "_id": "A503", "title": "Turbulence Simulation Project", "course": "RS105" },
+    { "_id": "A601", "title": "Orbital Mechanics Assignment", "course": "RS106" },
+    { "_id": "A602", "title": "Spacecraft Trajectory Analysis Project", "course": "RS106" },
+    { "_id": "A603", "title": "Celestial Navigation Quiz", "course": "RS106" },
+    { "_id": "A701", "title": "Spacecraft Systems Assignment", "course": "RS107" },
+    { "_id": "A702", "title": "Space Environment Analysis", "course": "RS107" },
+    { "_id": "A703", "title": "Human Spaceflight Exam", "course": "RS107" },
+    { "_id": "A801", "title": "Design Optimization Principles Assignment", "course": "RS108" },
+    { "_id": "A802", "title": "Multi-Objective Optimization Project", "course": "RS108" },
+    { "_id": "A803", "title": "Simulation and Modeling in Design Exam", "course": "RS108" }
   ]

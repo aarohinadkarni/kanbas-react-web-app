@@ -97,7 +97,7 @@
         color: gray;
     }
 
-    .module-content a {
+    .module-content Link {
         text-decoration: none;
         color: red;
     }

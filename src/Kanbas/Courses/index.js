@@ -20,7 +20,7 @@ function Courses() {
         <nav aria-label="breadcrumb">
           <ol className="breadcrumb">
               <li className="breadcrumb-item"><a href=""><FaBars/> {course.number}.{course._id}</a></li>
-              <li className="breadcrumb-item active" aria-current="page">{pathname.slice(pathname.lastIndexOf("/") , pathname.length).substring(1,pathname.length)}</li>
+              <li className="breadcrumb-item active" aria-current="page">{pathname.slice(pathname.lastIndexOf("/"), pathname.length).substring(1,pathname.length)}</li>
           </ol>
         </nav>
         <label for="student-view-button"></label>
