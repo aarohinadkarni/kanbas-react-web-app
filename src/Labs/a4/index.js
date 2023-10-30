@@ -23,6 +23,7 @@ const Assignment4 = () => {
     <>
     <h1>Assignment 4</h1>
     <ReduxExamples/>
+    <TodoList/>
     <Add a={1}  b={4}/>
     <ClickEvent/>
     <PassingDataOnEvent/>
@@ -35,7 +36,6 @@ const Assignment4 = () => {
     <ObjectStateVariable/>
     <ArrayStateVariable/>
     <ParentStateComponent/>
-    <TodoList/>
     </>
   );
 };
