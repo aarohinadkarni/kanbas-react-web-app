@@ -20,17 +20,17 @@ function ModuleList() {
   const dispatch = useDispatch();
   return (
     <div className="module-content">
-      <div class="row" style={{ marginLeft:20}}>
+      <div class="row" style={{marginBottom:10}}>
         <div class="col-auto">
-          <input value={module.name}
-            onChange={(e) => dispatch(setModule({ ...module, name: e.target.value }))}/>
+          <input class= "form-control" value={module.name}
+            onChange={(e) => dispatch(setModule({ ...module, name: e.target.value }))} style={{marginLeft:0}}/>
         </div>
         <div class="col-auto">
-          <textarea value={module.description}
-            onChange={(e) => dispatch(setModule({ ...module, description: e.target.value }))}/>
+          <textarea class= "form-control" value={module.description}
+            onChange={(e) => dispatch(setModule({ ...module, description: e.target.value }))} style={{height:30}}/>
         </div>
         <div class="col-auto">
-          <button type="submit" class="btn btn-secondary btn-sm regular" onClick={() => dispatch(addModule({ ...module, course: courseId }))}>Add</button>
+          <button type="submit" class="btn btn-success btn-sm regular" onClick={() => dispatch(addModule({ ...module, course: courseId }))}>Add</button>
         </div>
         <div class="col-auto">
           <button type="submit" class="btn btn-secondary btn-sm regular" onClick={() => dispatch(updateModule(module))}>Update</button>
@@ -45,6 +45,8 @@ function ModuleList() {
             <li key={index} className="list-group-item list-group-item-secondary" style={{paddingLeft: 0, paddingBottom: 0, paddingRight: 0}}>
               <div style={{paddingLeft: 10}}>{module.name}</div>
               <div className="d-flex justify-content-end align-items-center" style={{marginTop: -20, marginBottom: 10}}>
+              <button class = "btn btn-danger btn-sm regular float-end" onClick={() => dispatch(deleteModule(module._id))} style={{marginRight:10}}> Delete</button>
+                <button class = "btn btn-success btn-sm regular float-end" onClick={() => dispatch(setModule(module))} style={{marginRight:10}}> Edit</button>
                 <FaEllipsisV  className="me-3" style={{color:"grey"}}/>
                 <FaPlus className="me-3" style={{color:"grey"}}/>
                 <FaCheckCircle className="me-3" style={{color:"green"}}/>
@@ -54,8 +56,6 @@ function ModuleList() {
                   {module.description}
                   <FaEllipsisV className="float-end" style={{color:"grey"}}/>
                   <FaCheckCircle className="float-end" style={{color:"green"}}/>
-                  <button class = "btn btn-secondary btn-sm regular float-end" onClick={() => dispatch(setModule(module))} style={{marginRight:10}}> Edit</button>
-                  <button class = "btn btn-secondary btn-sm regular float-end" onClick={() => dispatch(deleteModule(module._id))} style={{marginRight:10}}> Delete</button>
                  </li>
               </div>
             </li>

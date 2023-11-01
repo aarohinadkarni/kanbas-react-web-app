@@ -43,7 +43,6 @@ function Home() {
             <span/>
         </div>
         <hr/>
-        <br/>
         <ModuleList />
       </div>
       <div className="wd-home-flex-column-container d-none d-xl-block" style={{marginTop: "40px", marginRight: "10px"}}>

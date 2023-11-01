@@ -41,7 +41,6 @@ function Modules() {
             <span/>
         </div>
         <hr/>
-        <br/>
       <ModuleList />
     </div>
   );
