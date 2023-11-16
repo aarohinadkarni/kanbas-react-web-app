@@ -51,7 +51,7 @@ function Dashboard(
             </button>
         </div>
         <div class="col-auto">
-            <button type="submit" class="btn btn-secondary btn-sm regular float-right" onClick={updateCourse}>
+            <button type="submit" class="btn btn-secondary btn-sm regular float-right" onClick={() => {updateCourse(course)}}>
             Update
             </button>
         </div>
