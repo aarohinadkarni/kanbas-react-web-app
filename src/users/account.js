@@ -54,10 +54,10 @@ function Account() {
             <option value="FACULTY">Faculty</option>
             <option value="STUDENT">Student</option>
           </select>
-          <button onClick={save}>
+          <button className="btn" onClick={save}>
             Save
           </button>
-          <button onClick={signout}>
+          <button className="btn" onClick={signout}>
             Signout
           </button>
           <Link to="/project/admin/users" className="btn btn-warning w-100">
