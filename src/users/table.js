@@ -55,8 +55,8 @@ function UserTable() {
           </tr>
           <tr>
             <td>
-              <input value={user.password} onChange={(e) => setUser({ ...user, password: e.target.value })}/>
               <input value={user.username} onChange={(e) => setUser({ ...user, username: e.target.value })}/>
+              <input value={user.password} onChange={(e) => setUser({ ...user, password: e.target.value })}/>
             </td>
             <td>
               <input value={user.firstName} onChange={(e) => setUser({ ...user, firstName: e.target.value })}/>
@@ -92,11 +92,11 @@ function UserTable() {
               <td>{user.firstName}</td>
               <td>{user.lastName}</td>
               <td className="text-nowrap">
-                <button className="btn btn-danger me-2">
-                <BsTrash3Fill onClick={() => deleteUser(user)} />
-                </button>
                 <button className="btn btn-warning me-2">
                 <BsPencil onClick={() => selectUser(user)} />
+                </button>
+                <button className="btn btn-danger me-2">
+                <BsTrash3Fill onClick={() => deleteUser(user)} />
                 </button>
               </td>
             </tr>))}
